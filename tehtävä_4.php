@@ -7,9 +7,9 @@
         $luku = htmlspecialchars($_GET['luku']);
         $satunnaisluku = round(rand(1,10));
         if($luku == $satunnaisluku) {
-            echo "onnittelut";
+            echo "Onnittelut.";
         } else {
-            echo "tämä arpa ei voittanut";
+            echo "Tämä arpa ei voittanut.";
         }
     }
 ?>

@@ -12,9 +12,9 @@
         $vero = ($bruttopalkka * $veroprosentti) / 100;
         $nettopalkka = $bruttopalkka - $vero;
 
-        echo "Bruttopalkka: $bruttopalkka €<br>";
-        echo "Vero: $vero €<br>";
-        echo "Nettopalkka: $nettopalkka €<br>";
+        echo "Bruttopalkka: $bruttopalkka €.<br>";
+        echo "Vero: $vero €<br>.";
+        echo "Nettopalkka: $nettopalkka €.<br>";
     }
 ?>
 

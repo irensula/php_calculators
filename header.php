@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css?v=<?php echo time(); ?>">
     <title>Laskurit</title>
 </head>
 <body>
@@ -22,5 +22,6 @@
             <li><a href="tehtävä_6.php">Tehtävä 6</a></li>
             <li><a href="tehtävä_7.php">Tehtävä 7</a></li>
             <li><a href="tehtävä_8.php">Tehtävä 8</a></li>
+            <li><a href="lisätehtävä_1.php">Lisätehtävä 1</a></li>
         </ul>
     </nav>

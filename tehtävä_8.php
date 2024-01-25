@@ -6,15 +6,16 @@
     if(isset($_GET['luku_1'], $_GET['luku_2'], $_GET['valinta'])){
         $luku_1 = htmlspecialchars($_GET['luku_1']);
         $luku_2 = htmlspecialchars($_GET['luku_2']);
+        $valinta = htmlspecialchars($_GET['valinta']);
         
 
-        if($_GET["valinta"] == "pienempi") {
+        if($valinta == "pienempi") {
             if($luku_1 < $luku_2) {
                 echo "$luku_1";
             } elseif ($luku_1 > $luku_2) {
                 echo "$luku_2";
             }   
-        } elseif ($_GET["valinta"] == "suurempi"){
+        } elseif ($valinta == "suurempi"){
             if($luku_1 > $luku_2) {
                 echo "$luku_1";
             } elseif ($luku_1 < $luku_2) {
@@ -32,10 +33,10 @@
     <label for="luku_2">Anna luku 2:</label> 
     <input type="text" name="luku_2" id="luku_2"><br>
 
-    <input type="radio" id="valinta" name="valinta" value="pienempi">
+    <input type="radio" id="_id" name="valinta" value="pienempi">
     <label for="valinta">Pienempi</label><br>
 
-    <input type="radio" id="valinta" name="valinta" value="suurempi">
+    <input type="radio" id="_id" name="valinta" value="suurempi">
     <label for="valinta">Suurempi</label><br>
     
     <input type="submit" value="Lähetä">

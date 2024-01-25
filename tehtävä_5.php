@@ -8,9 +8,9 @@
         if($arvosana == 1) {
             echo "Paranna hiukan";
         } elseif($arvosana == 2) {
-            echo "Ihan ok";
+            echo "Ihan ok.";
         } elseif($arvosana == 3) {
-            echo "Hienoa";
+            echo "Hienoa.";
         }
     }
 ?>

@@ -12,9 +12,9 @@
         $alennusmaara = ($kokonaishinta * $prosentti) / 100;
         $alennettuhinta = $kokonaishinta - $alennusmaara;
 
-        echo "Kokonaishinta: $kokonaishinta €<br>";
-        echo "Alennusmäärä: $alennusmaara €<br>";
-        echo "Alennettu hinta: $alennettuhinta €<br>";
+        echo "Kokonaishinta: $kokonaishinta €.<br>";
+        echo "Alennusmäärä: $alennusmaara €.<br>";
+        echo "Alennettu hinta: $alennettuhinta €.<br>";
     }
 ?>
 
